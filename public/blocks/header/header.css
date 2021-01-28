@@ -1,0 +1,14 @@
+.header {
+  padding: 48px 165px;
+  background-image: url('../../images/illustration-working.svg');
+  background-repeat: no-repeat;
+  background-size: content;
+  background-position: top 166px right -123px;
+  min-height: calc(800px - 48px * 2);
+}
+
+@media (max-width: 650px) {
+  .header {
+    padding: 40px 24px;
+  }
+}

@@ -1,1 +1,16 @@
 @import url('../vendor/normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import url('../blocks/body/body.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__nav/header__nav.css');
+@import url('../blocks/header/__nav-columns/header__nav-columns.css');
+@import url('../blocks/header/__nav-site/header__nav-site.css');
+@import url('../blocks/header/__nav-register/header__nav-register.css');
+@import url('../blocks/header/__link/header__link.css');
+@import url('../blocks/header/__link/_logo/_logo.css');
+@import url('../blocks/header/__link/_decor/header__link_decor.css');
+@import url('../blocks/header/__link/_size/_l/header__link_size_l.css');
+@import url('../blocks/header/__tittle/header__title.css');
+@import url('../blocks/header/__subtitle/header__subtitle.css');
+

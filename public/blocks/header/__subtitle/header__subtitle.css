@@ -1,0 +1,9 @@
+.header__subtitle {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: #9E9AA8;
+  max-width: 50%;
+  margin: 0 auto 40px 0;
+}

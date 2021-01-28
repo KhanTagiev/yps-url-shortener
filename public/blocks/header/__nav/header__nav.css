@@ -1,0 +1,8 @@
+.header__nav {
+  display: grid;
+  grid-template-columns: 121px 1fr;
+  gap: 45px;
+  list-style: none;
+  align-items: center;
+  font-size: 0;
+}
