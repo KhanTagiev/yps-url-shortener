@@ -2,13 +2,29 @@
   padding: 48px 165px;
   background-image: url('../../images/illustration-working.svg');
   background-repeat: no-repeat;
-  background-size: content;
+  background-size: auto;
   background-position: top 166px right -123px;
   min-height: calc(800px - 48px * 2);
 }
 
-@media (max-width: 650px) {
+@media (max-width: 1200px) {
   .header {
-    padding: 40px 24px;
+    padding: 48px 100px;
+    background-size: 600px;
   }
 }
+
+@media (max-width: 1000px) {
+  .header {
+    padding: 48px;
+    background-size: 500px;
+  }
+}
+
+@media (max-width: 750px) {
+  .header {
+    padding: 40px 24px;
+    background-position: top 105px left calc(50vw - 163.5px);
+  }
+}
+

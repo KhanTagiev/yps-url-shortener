@@ -1,8 +1,15 @@
 .header__nav {
   display: grid;
   grid-template-columns: 121px 1fr;
+  grid-template-rows: 40px;
   gap: 45px;
   list-style: none;
   align-items: center;
   font-size: 0;
+}
+
+@media (max-width: 750px) {
+  .header__nav {
+    grid-template-rows: 33px;
+  }
 }

@@ -6,3 +6,14 @@
   color: #9E9AA8;
   margin-right: 30px;
 }
+
+@media (max-width: 750px) {
+  .header__link {
+    display: inline-block;
+    margin-right: 0;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+  }
+}

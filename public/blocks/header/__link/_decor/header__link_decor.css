@@ -6,3 +6,10 @@
   padding: 9px 24px;
   box-sizing: border-box;
 }
+
+@media (max-width: 750px) {
+  .header__link_decor {
+    width: 279px;
+    text-align: center;
+  }
+}
