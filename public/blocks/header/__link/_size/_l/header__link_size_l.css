@@ -3,3 +3,11 @@
   line-height: 30px;
   padding: 14px 40px;
 }
+
+@media (max-width: 750px) {
+  .header__link_size_l {
+    display: block;
+    width: 197px;
+    margin: 0 auto;
+  }
+}

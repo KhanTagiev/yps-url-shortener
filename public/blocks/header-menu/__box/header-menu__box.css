@@ -1,0 +1,17 @@
+.header-menu__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 750px) {
+  .header-menu__box {
+    flex-direction: column;
+    background-color: #3A3054;
+    border-radius: 10px;
+    position: relative;
+    top: 230px;
+    left: -166px;
+    padding: 40px 24px;
+    visibility: hidden;
+  }
+}

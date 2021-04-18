@@ -7,3 +7,21 @@
   max-width: 50%;
   margin: 0 auto 40px 0;
 }
+
+@media (max-width: 1000px) {
+  .header__subtitle {
+    font-size: 20px;
+    line-height: 33px;
+  }
+}
+
+@media (max-width: 750px) {
+  .header__subtitle {
+    margin-bottom: 32px;
+    max-width: 100%;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.122727px;
+  }
+}
