@@ -12,17 +12,23 @@
   <header class="header">
     <nav class="header__nav">
       <li><a href="" class="header__link header__link_logo"><img src="./images/logo.svg" alt="Shortly" class="header__logo"></a></li>
-      <div class="header__nav-columns">
-        <div class="header__nav-site">
-          <li><a href="" class="header__link">Features</a></li>
-          <li><a href="" class="header__link">Pricing</a></li>
-          <li><a href="" class="header__link">Resources</a></li>
+      <div class="header-menu">
+        <input class="header-menu__toggle" type="checkbox" id="header-menu__toggle">
+        <label class="header-menu__btn" for="header-menu__toggle">
+          <span></span>
+        </label>
+        <div class="header-menu__box">
+          <ul class="header__nav-site">
+            <li><a href="" class="header__link">Features</a></li>
+            <li><a href="" class="header__link">Pricing</a></li>
+            <li><a href="" class="header__link">Resources</a></li>
+          </ul>
+          <ul class="header__nav-register">
+            <li><a href="" class="header__link">Login</a></li>
+            <li><a href="" class="header__link header__link_decor">Sign Up</a></li>
+          </ul>
         </div>
-        <div class="header__nav-register">
-          <li><a href="" class="header__link">Login</a></li>
-          <li><a href="" class="header__link header__link_decor">Sign Up</a></li>
-        </div>
-    </div>
+      </div>
     </nav>
     <h1 class="header__title">More than just shorter links</h1>
       <p class="header__subtitle">Build your brand’s recognition and get detailed insights on how your links are performing.</p>

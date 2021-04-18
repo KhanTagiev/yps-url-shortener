@@ -1,6 +1,24 @@
-# yps-url-shortener
+# **Дополнительный проект: yps-url-shortener**
 
-Additional project for Yandex Praktikum Students
+## **Описание проекта**
 
-Design - https://www.figma.com/file/G8CWQvaIWmOuansar2Kg9M/url-shortening-api-landing-page?node-id=0%3A1
-Ссылка на проект https://khantagiev.github.io/yps-url-shortener/public/index.html
+Интерактивный сервис для сокращения ссылок. Дополнительный проект в рамках обучения на Я.Практикуме
+Дизайн поекта - [Ссылка на Figma](https://www.figma.com/file/G8CWQvaIWmOuansar2Kg9M/url-shortening-api-landing-page?node-id=0%3A1)
+
+**Реализованный функционал сервиса:**
+1. Адаптивная вёрстка
+
+**Планируемый функционал сервиса:**
+1. Доверстать проект согласно макету
+2. Подключить API для сокращения ссылок
+3. Настроить сборку проекта через Webpack
+
+**При созданиии сервиса были использованны такие технологии как:**
+1. HTML.
+2. CSS: технологии Media Queries, Flex и Grid контейнеров для создания адаптивной верстки.
+3. JS: создание переменных,функций и классов с публичными и приватными методами; добавление и удаление eventListener; использование методов обработки массивов; использование средства validity для создания функции валидации форм.
+4. Webpack. Настроена сборка проекта.
+
+**Просмотр на GitHub Pages**
+
+[Ссылка на страницу GitHub Pages](https://khantagiev.github.io/yps-url-shortener/public/index.html)
